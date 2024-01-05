@@ -37,8 +37,9 @@ Add `prettier` and `prettier:check` scripts to `package.json` file
 },
 ```
 
-### Copy Another File From This Repository
+### Copy Another File And Folder From This Repository
 
+- `.github`
 - `.gitattributes`
 - `.nvmrc`
 - `prettier.config.js`
