@@ -16,12 +16,13 @@ Install your-project with create-next-app. Enable Typescript, ESLint, Tailwind C
 ```bash
 npx create-next-app@latest your-project
 cd my-project
+pnpm install
 ```
 
 Install required development dependencies
 
 ```bash
-npm install -D @trivago/prettier-plugin-sort-imports eslint-config-prettier prettier prettier-plugin-tailwindcss
+pnpm add -D @trivago/prettier-plugin-sort-imports eslint-config-prettier prettier prettier-plugin-tailwindcss
 ```
 
 Add `prettier` and `prettier:check` scripts to `package.json` file
@@ -57,6 +58,8 @@ Add `prettier` and `prettier:check` scripts to `package.json` file
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
